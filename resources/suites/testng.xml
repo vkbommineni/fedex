@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Fedex_Test">
+
+	<test name="API TestCases">
+		<classes>
+			<class name="com.testing.testcases.APITestCases"></class>
+		</classes>
+	</test>
+
+	<test name="UI TestCases">
+		<classes>
+			<class name="com.testing.testcases.UITestCases"></class>
+		</classes>
+	</test>
+
+</suite>

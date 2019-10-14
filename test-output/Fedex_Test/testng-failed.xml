@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Fedex_Test]">
+  <test thread-count="5" name="UI TestCases(failed)">
+    <classes>
+      <class name="com.testing.testcases.UITestCases">
+        <methods>
+          <include name="completeProfileTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testing.testcases.UITestCases -->
+    </classes>
+  </test> <!-- UI TestCases(failed) -->
+</suite> <!-- Failed suite [Fedex_Test] -->
